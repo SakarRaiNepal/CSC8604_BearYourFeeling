@@ -15,16 +15,16 @@ Created using Raspberry Pi, RFID tags and Green button to make a fun and interac
 <br> Employing RFID technology, the device engages children with story-based scenarios that correlate emotions with relatable experiences. Ideal for use in both home and educational contexts, Bear Your Feelings not only promotes learning but also encourages open discussions about mental health, serving as a comprehensive tool for parents, teachers, and therapists to create emotional awareness and empathy in early childhood education.
 
 # Hardware:
-<br>Raspberry Pi 
-<br>RFID Sensor
-<br>RFID Tags
-<br>Physical Green Button
-<br>Raspberry Pi LCD Screen
+- Raspberry Pi 
+- RFID Sensor
+- RFID Tags
+- Physical Green Button
+- Raspberry Pi LCD Screen
 
 # Software:
-<br>HTML
-<br>CSS
-<br>JavaScript
+- HTML
+- CSS
+- JavaScript
 
 # Setup and Run Instructions
 To get Bear Your Feelings up and running, follow these setup instructions:
