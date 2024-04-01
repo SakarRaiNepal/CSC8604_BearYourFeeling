@@ -1,7 +1,7 @@
 # CSC8604 - Bear your Feeling
 Created using Raspberry Pi, RFID tags and Green button to make a fun and interactive device for young children to help them educate new emotions
 
-
+![Picture1](https://github.com/SakarRaiNepal/CSC8604/assets/143952149/c0fa171d-fdeb-40d7-ad62-0a7a2f33b09d)
 
 ## Table of Contents
 - [General Information](#General-Information)
