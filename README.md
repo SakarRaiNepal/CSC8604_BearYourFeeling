@@ -21,7 +21,7 @@ Created using Raspberry Pi, RFID tags and Green button to make a fun and interac
 # Setup and Run Instructions
 To get Bear Your Feelings up and running, follow these setup instructions:
 
-<br>Hardware Setup: Connect the RFID sensor, green button, and LCD screen to your Raspberry Pi according to the wiring guide provided in the documentation.
-<br>Software Setup: Clone this repository to your Raspberry Pi. Ensure you have Node.js installed to run the server-side code.
-<br>Server Initialization: Navigate to the project directory in your terminal and run the server with the command node server.mjs.
-<br>Interacting with the Device: Use the RFID tags by tapping them on the sensor to navigate through the learning modules. Press the green button to advance through the application as instructed on-screen.
+<br>- Hardware Setup: Connect the RFID sensor, green button, and LCD screen to your Raspberry Pi according to the wiring guide provided in the documentation.
+<br>- Software Setup: Clone this repository to your Raspberry Pi. Ensure you have Node.js installed to run the server-side code.
+<br>- Server Initialization: Navigate to the project directory in your terminal and run the server with the command node server.mjs.
+<br>- Interacting with the Device: Use the RFID tags by tapping them on the sensor to navigate through the learning modules. Press the green button to advance through the application as instructed on-screen.
