@@ -1,0 +1,28 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex; /* Centers the content of the page */
+  justify-content: center; /* Horizontally */
+  align-items: center; /* Vertically */
+}
+/*--------------------------------------------------------------*/
+.homepage {
+  width: 1024px; /* Exact size of the raspberry pi screen*/
+  height: 600px; /* same thing*/
+  background-image: url('../assets/Landing.png');
+  background-size: cover;
+  box-shadow: 0px 0px 50px lightgrey inset; /* A subtle shadow for depth */
+  border-radius: 20px; /* Rounds the corners */
+}
+
+/*--------------------------------------------------------------*/
+/* might not need it as i removed the function for now so that only button input is recognised */
+
+#playButton {
+  height: auto; /* Adjusts height as needed */
+  width: 80px; /* Fixed width */
+  margin-top: 52%; /* Positions it lower */
+  margin-bottom: 90px; /* And adds space below */
+  border: none; /* No border */
+  /*cursor: pointer; /* Uncomments to show the cursor as a pointer */
+} 

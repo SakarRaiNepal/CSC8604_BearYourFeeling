@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title><!-- Set the title of the document in the browser -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen:400" /><!-- Import 'Nanum Pen' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue:700" /><!-- Import 'Comic Neue' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" /><!-- Import 'Source Sans Pro' from Google Fonts -->
+    <link rel="stylesheet" href="styles/introduce.css"><!-- Link to the external CSS file -->
+</head>
+
+<body>
+
+    <div class="introduction"></div>
+
+    <script>
+
+        // Listens for uesr to press 'h' key to navigate to introduce.html. read_button.sh `xdotool` simulates an 'h' key press
+        document.addEventListener('keydown', function (event) {
+            if (event.key.toLowerCase() === 'h') {
+                window.location.href = 'learn.html';
+            }
+        });
+
+    </script>
+
+</body>
+</html>

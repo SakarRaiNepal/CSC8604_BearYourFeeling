@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Learn</title><!-- Set the title of the document in the browser -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen:400" /><!-- Import 'Nanum Pen' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue:700" /><!-- Import 'Comic Neue' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" /><!-- Import 'Source Sans Pro' from Google Fonts -->
+    <link rel="stylesheet" href="./styles/learn.css"><!-- Link to the external CSS file -->
+</head>
+
+<body onload="refresh()"><!-- Calls the `refresh` function once the body is loaded -->
+
+    <div id="scenario-container"><!-- Container for displaying the scenario and options -->
+
+        <!-- Option buttons for different emotions -->
+        <div id="options" class="options-buttons">
+            <img src="./assets/Emotions/Happy.jpg" class="emotion-image" data-emotion="Happy" alt="Happy">
+            <img src="./assets/Emotions/Sad.jpg" class="emotion-image" data-emotion="Sad" alt="Sad">
+            <img src="./assets/Emotions/Angry.jpg" class="emotion-image" data-emotion="Angry" alt="Angry">
+            <img src="./assets/Emotions/Fear.jpg" class="emotion-image" data-emotion="Fear" alt="Fear">
+            <img src="./assets/Emotions/Disgust.jpg" class="emotion-image" data-emotion="Disgust" alt="Disgust">
+        </div>
+
+        <img id="scenario-image"><!-- Placeholder for the scenario image. shows when keyboard is pressed-->
+        <div id="inform"></div><!-- Placeholder for additional information or feedback. shows when keyboard is pressed-->
+    </div>
+
+    <div id="correctAnswerPopup" class="popup">
+        <div class="Popup-content-Correct">
+            <img id="correct-answer-image" src="" alt="Correct Answer Image">
+
+        </div>
+    </div>
+
+    <script src="./data/learn.js"></script><!-- JavaScript file for page functionality -->
+
+</body>
+
+</html>

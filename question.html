@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Quiz</title><!-- Set the title of the document in the browser -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen:400" /><!-- Import 'Nanum Pen' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue:700" /><!-- Import 'Comic Neue' from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" /><!-- Import 'Source Sans Pro' from Google Fonts -->
+    <link rel="stylesheet" href="./styles/question.css"><!-- Link to the external CSS file -->
+</head>
+
+<body onload="refresh()"><!-- Calls the `refresh` function once the body is loaded -->
+    <div id="score-tracker"
+        style="position: absolute; top: 20px; right: 20px; font-family: 'Source Sans Pro', sans-serif;">Score</div>
+
+    <div id="question-container">
+        <img id="question-image" src="./assets/Emotions/Happy.jpg">
+        <div id="question">What feeling do you have when you share and eat yummy ice cream with your friends and you
+            laugh and smile?</div> <!--show text on first image quick fix-->
+        <!--buttons / thesea re assigned to different buttons -->
+        <div id="answers" class="answer-buttons">
+            <img src="./assets/Button/Happy.png" class="emotion-image" data-emotion="Happy" alt="Happy">
+            <img src="./assets/Button/Sad.png" class="emotion-image" data-emotion="Sad" alt="Sad">
+            <img src="./assets/Button/Angry.png" class="emotion-image" data-emotion="Angry" alt="Angry">
+            <img src="./assets/Button/Fear.png" class="emotion-image" data-emotion="Fear" alt="Fear">
+            <img src="./assets/Button/Disgust.png" class="emotion-image" data-emotion="Disgust" alt="Disgust">
+        </div>
+    </div>
+
+    <!-- The Correct Answer Popup -->
+    <div id="correctAnswerPopup" class="popup">
+        <div class="Popup-content-Correct">
+            <img id="correct-answer-image" src="" alt="Correct Answer Image">
+
+        </div>
+    </div>
+
+    <!-- The wrong Answer Popup -->
+    <div id="tryAgainPopup" class="popup">
+        <div class="Popup-content-Again">
+            <img id="wrong-answer-image" src="" alt="Try Again Image">
+        </div>
+    </div>
+    <div id="results"></div>
+
+
+    <script src="./data/question.js"></script>
+    <!-- JavaScript file that contains logic for handling questions, answers, and scoring -->
+
+</body>
+
+</html>
